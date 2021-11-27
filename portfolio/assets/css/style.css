@@ -1,113 +1,69 @@
-/* Estilos da página index.html */
-.bg{
-    background-color: aquamarine;
-    overflow: hidden;
-}
+/* Estilos da index.html*/
 
+.color{
+  font-family:'Nunito', sans-serif;
+  color:#000000 ;
+}
 .center{
-    text-align: center;
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
 }
 
-.justify{
-    text-align: justify;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 #menu li{
-    display: inline;
-    padding: 15px;
-    
+  display: inline;
+  padding: 2%;
 }
-#menu li a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
+
+#menu li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+
 }
 #menu li a:hover{
-    color: gray;
+  color:#000000;
 }
 
-.p-25{
-    padding: 25px;
+.p-30{
+  font-size: 30px;
 }
 
 .br-50{
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
-.wh{
-width: 300px;
-height: 300px;
+.wh-300{
+  width: 300px;
+  height: 300px;
 }
-
+.margin-50{
+  margin: 50px;
+}
+.container-social{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
 .tm-social{
-    width: 30px;
-    height: 30px
+  margin: 10px;
+  width: 30px;
+  height: 30px;
 }
-
+/*Estilos da contato.html*/
 .mb-50 {
-margin-bottom: 50px;
+  margin-bottom: 225px;
 }
-
-
-  /* Estilos da página contato.html */
-
 .ml-50 {
-margin-left: 50px;
+  margin-left: 50px;
 }
-
-#titulo {
-    margin-top: 5cm;
-  }
-  
-  .mb-50{
-    margin-bottom: 50px;
-    height: 12cm;
-    margin-top: 1cm;
-  }
-  
-  .ml-50 {
-    margin-left: 50px;
-  }
-  
-  .ml-50 p {
-    margin-left: 50px;
-    margin-bottom: 15px;
-  }
-  
-  form {
-    margin-bottom: 5cm;
-  }
-  
-  input, select, textarea, button {
-    font-family: Arial black;
-    font-size: 1em;
-    color: black;
-    border-radius: 5px;
-  }
-  
-  .botao {
-    font-size: 1.2em;
-    background: #ffffff;
-    border: 0;
-    margin-bottom: 1em;
-    color: #000000;
-    padding: 0.2em 0.6em;
-  }
-  
-  /* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
-  .botao:hover {
-    background: rgb(75, 74, 74);
-    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
-    text-shadow: none;
-    transition: 0.3s ease-out;
-  }
-  
-  /* Elementos de classe botão e de tag <select> */
-  .botao, select{
-    cursor: pointer;
-  }
+.mb-0{
+  padding-bottom: 0px;
+}
